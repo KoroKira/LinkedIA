@@ -88,7 +88,7 @@ def update_scores(transitions, user_feedback):
                 transitions[mot_actuel][mot_suivant][mot_suivant_2]['score'] += score
 
 # Charger les données
-fichiers_texte = ['input.txt', 'texte2.txt', 'text3.txt', 'texte4.txt', 'texte5.txt', 'text6.txt', 'texte7.txt', 'texte8.txt']
+fichiers_texte = ['../datas/input.txt', '../datas/texte2.txt', '../datas/text3.txt', '../datas/texte4.txt', '../datas/texte5.txt', '../datas/text6.txt', '../datas/texte7.txt', '../datas/texte8.txt']
 texte_brut = charger_donnees(fichiers_texte)
 
 # Normaliser le texte
